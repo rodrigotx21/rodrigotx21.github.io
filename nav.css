@@ -1,0 +1,83 @@
+:root {
+    --color1: #22223B;
+    --color2: #4A4E69;
+    --color3: #9A8C98;
+    --color4: #C9ADA7;
+    --color5: #F2E9E4;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0;
+    font-family: 'Roboto', system-ui;
+    background-color: var(--color5);
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    z-index: 2;
+    background-color: var(--color1);
+    width: 5dvw;
+    height: 80dvh;
+    margin-left: 1.5dvw;
+    margin-top: 10dvh;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 1.7dvw;
+    box-shadow: 5px 5px 5px #000000;
+    transition: 500ms;
+    overflow: hidden;
+}
+nav:hover {
+    width: 18dvw;
+    transition: 200ms;
+}
+
+h1 {
+    margin: 0;
+    font-size: 70px;
+}
+
+.navicon_text {
+    text-decoration: none;
+    display: flex;
+    width: 15dvw;
+    align-items: center;
+}
+
+.navicon {
+    width: 2.4dvw;
+    height: 2.4dvw;
+    padding: 0.4dvw;
+    border-radius: 16px;
+    background-color: var(--color4);
+    box-shadow: #000000 3px 3px 10px;
+    transition: 200ms;
+}
+.navicon_text:hover > .navicon {
+    width: 2.6dvw;
+    height: 2.6dvw;
+    background-color: var(--color5);
+    transition: 200ms;
+}
+
+.navtext {
+    width: 10dvw;
+    margin-left: 1dvw;
+    opacity: 0;
+    transition: 300ms;
+    font-size: large;
+}
+nav:hover .navtext{
+    opacity: 1;
+    color: #ffffff;
+    transition: 300ms;
+}
+.navicon_text:hover > .navtext{
+    font-weight: bold;
+}

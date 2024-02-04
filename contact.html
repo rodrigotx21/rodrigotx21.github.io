@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <a class="navicon_text" href="me.html">
+            <img class="navicon" src="imgs/face_FILL0_wght400_GRAD0_opsz24.svg" alt="face-icon">
+            <p class="navtext">Me, myself & I</p>
+        </a>
+        <a class="navicon_text" href="skills.html">
+            <img class="navicon" src="imgs/skillet_FILL0_wght400_GRAD0_opsz24.svg" alt="skillet-icon">
+            <p class="navtext">Skills</p>
+        </a>
+        <a class="navicon_text" href="work.html">
+            <img class="navicon" src="imgs/work_FILL0_wght400_GRAD0_opsz24.svg" alt="briefcase-icon">
+            <p class="navtext">My work</p>
+        </a>
+        <a class="navicon_text" href="edu.html">
+            <img class="navicon" src="imgs/school_FILL0_wght400_GRAD0_opsz24.svg" alt="graduation-hat-icon">
+            <p class="navtext">Education</p>
+        </a>
+        <div style="font-weight: bold;" class="navicon_text">
+            <img class="navicon" src="imgs/alternate_email_FILL0_wght400_GRAD0_opsz24.svg" alt="at-icon">
+            <p class="navtext">Contact me</p>
+        </div>
+    </nav>
+    <form action="" method="POST">
+        <h1>Contact Me!</h1>
+        <div class="input_group name">
+            <input required type="text" name="name">
+            <label for="name">Name</label>
+        </div>
+        <div class="input_group business">
+            <input type="checkbox" name="business">
+        </div>
+        <div class="input_group email">
+            <input required type="text" name="email">
+            <label for="email">Email</label>
+        </div>
+        <div class="input_group subject">
+            <input required type="text" name="subject">
+            <label for="subject">Subject</label>
+        </div>
+        <div class="input_group message">
+            <textarea required name="message" class="input" cols="30" rows="10"></textarea>
+            <label style="align-self: flex-start; padding-top: 1dvh;" for="message">Message</label>
+        </div>
+        <div class="button">
+            <button class="submit" type="submit">
+                <div class="ico"></div>
+                <p>Send</p>
+            </button>
+        </div>
+    </form>
+</body>
+</html>

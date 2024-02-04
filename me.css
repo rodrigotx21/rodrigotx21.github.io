@@ -1,0 +1,40 @@
+:root {
+    --color1: #22223B;
+    --color2: #4A4E69;
+    --color3: #9A8C98;
+    --color4: #C9ADA7;
+    --color5: #F2E9E4;
+}
+
+.content {
+    height: 100dvh;
+    z-index: -1;
+    display: flex;
+    margin-left: 10dvw;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 1dvw;
+    padding-right: 1dvw;
+}
+
+.portrait {
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    width: 25dvw;
+    height: 70dvh;
+    border-radius: 16px;
+}
+
+.text {
+    padding: 20px;
+    color: var(--color1);
+    /*border: 2px #000000 solid;*/
+    width: 50dvw;
+}
+
+.paragraph {
+    margin: 0;
+    margin-top: 10px;
+    font-size: x-large;
+}
