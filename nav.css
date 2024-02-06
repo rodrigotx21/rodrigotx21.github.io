@@ -81,3 +81,13 @@ nav:hover .navtext{
 .navicon_text:hover > .navtext{
     font-weight: bold;
 }
+
+.darkmode_button {
+    width: 2.4dvw;
+    height: 2.4dvw;
+    padding: 0.4dvw;
+    border-radius: 16px;
+    background-color: var(--color4);
+    box-shadow: #000000 3px 3px 10px;
+    transition: 200ms;
+}
