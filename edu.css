@@ -79,8 +79,8 @@ body{
 }
 
 .school_icon {
-    width: 3dvw;
-    height: auto;
+    height: 3dvw;
+    width: auto;
     padding: 0.4dvw;
     border-radius: 16px;
 }
