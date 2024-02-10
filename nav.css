@@ -97,12 +97,80 @@ nav:hover .navtext{
     font-weight: bold;
 }
 
-.darkmode_button {
-    width: 2.4dvw;
-    height: 2.4dvw;
-    padding: 0.4dvw;
-    border-radius: 16px;
-    background-color: var(--color4);
-    box-shadow: #000000 3px 3px 10px;
-    transition: 200ms;
+.nav_menu {
+    visibility: hidden;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    margin-top: 5dvh;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (max-width: 600px) {
+    nav {
+        visibility: hidden;
+    }
+
+    .nav_menu {
+        position: fixed;
+        left: -90dvw;
+        visibility: visible;
+        height: 100dvh;
+        width: 100dvw;
+        background-color: var(--color1);
+        transition: 1s;
+    }
+    .nav_menu:hover {
+        transform: translateX(90dvw);
+        transition: 1s;
+    }
+
+    .nav_menu_title {
+        margin-top: 3dvh;
+        font-size: 12dvh;
+        color: var(--color5);
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--color5);
+        border: 2px var(--color5) solid;
+        border-radius: 50px;
+        height: 8dvh;
+        width: 55vw;
+        font-size: 4dvh;
+        margin: 2dvh;
+        transition: .5s;
+    }
+    .link:hover, .active {
+        background-color: var(--color5);
+        color: var(--color1);
+        transition: .5s;
+    }
+
+    .open_close_icon {
+        background-image: url("imgs/open.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 6dvw;
+        height: 6dvw;
+        position: absolute;
+        top: 3dvw;
+        right: 3dvw;
+    }
+    .nav_menu:hover > .open_close_icon {
+        background-image: url("imgs/close.svg");
+    }
 }

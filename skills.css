@@ -124,5 +124,5 @@ body{
     background:
             radial-gradient(closest-side, var(--color2) 79%, transparent 80% 100%),
             conic-gradient(var(--color1) 18.18%, var(--color5) 0);
-    margin-top: 10dvh;
+    margin-top: 8dvh;
 }
