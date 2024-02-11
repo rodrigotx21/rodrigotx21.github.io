@@ -22,7 +22,6 @@ body{
     scrollbar-width: large;
 
     margin-left: 20dvw;
-    /*background-color: #22223B;*/
 }
 
 .blur {
@@ -59,7 +58,7 @@ body{
     transition: 400ms;
 }
 
-.header {
+.school_header {
     height: 15dvh;
     width: 100%;
     background-color: var(--color2);
@@ -92,10 +91,71 @@ body{
     font-weight: bolder;
 }
 
-ul {
+.school_info {
     color: var(--color1);
     padding-left: 8dvw;
 }
 b, span {
     color: var(--color5);
+}
+
+@media (max-width: 600px) {
+    body {
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+    .content {
+        height: fit-content;
+        width: 90dvw;
+        align-self: flex-start;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        margin-left: 0;
+        margin-top: 10dvh;
+    }
+
+    .blur {
+        visibility: hidden;
+    }
+
+    .step {
+        height: 15dvh;
+        width: 100%;
+
+        border-radius: 32px;
+        background-color: var(--color3);
+        transition: 1s;
+        margin-bottom: 2dvh;
+        overflow: hidden;
+        cursor: grab;
+
+        font-size: 3dvh;
+    }
+    .step:hover {
+        height: 43dvh;
+        transition: 400ms;
+    }
+
+    .school_info {
+        margin-left: 10dvw;
+    }
+
+    .school_icon {
+        height: 13dvw;
+        width: auto;
+        padding: 0.4dvw;
+        border-radius: 16px;
+        margin-left: 2dvw;
+    }
+
+    .school_name {
+        color: var(--color5);
+        margin-left: 2dvw;
+        font-size: 3.4dvh;
+        font-weight: bolder;
+    }
 }

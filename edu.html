@@ -32,36 +32,49 @@
             <p class="navtext">Contact me</p>
         </a>
     </nav>
+    <div class="nav_menu" id="nav_menu">
+        <h1 class="nav_menu_title">Portfolio</h1>
+        <ul class="menu_list">
+            <li class="menu_bullet"><a href="index.html" class="link">Me, Myself & I</a></li>
+            <li class="menu_bullet"><a href="skills.html" class="link">Skills</a></li>
+            <li class="menu_bullet"><a class="active link">Education</a></li>
+            <li class="menu_bullet"><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+        <div class="header">
+            <img src="imgs/arrow.svg" class="open_button" onclick="toggleClass()" role="button">
+        </div>
+    </div>
     <div class="content">
         <div class="blur"></div>
         <div class="steps">
             <div class="step">
-                <div class="header">
+                <div class="school_header">
                     <div class="school_icon_text">
                         <img class="school_icon" src="imgs/LogoAECE_peq.jpg" alt="graduation-hat-icon">
                         <p class="school_name">Escola Secundária do Entroncamento</p>
                     </div>
                 </div>
-                <ul>
-                    <li><span>High School Diploma on Science and Technology</span></li>
-                    <li><b>Enrolment:</b> <span>Sep 2020 - Jul 2023</span></li>
-                    <li><b>Average:</b> <span>18,7</span></li>
+                <ul class="school_info">
+                    <li class="school_info_bullet"><span>High School Diploma on Science and Technology</span></li>
+                    <li class="school_info_bullet"><b>Enrolment:</b> <span>Sep 2020 - Jul 2023</span></li>
+                    <li class="school_info_bullet"><b>Average:</b> <span>18,7</span></li>
                 </ul>
             </div>
             <div class="step">
-                <div class="header">
+                <div class="school_header">
                     <div class="school_icon_text">
                         <img class="school_icon" src="imgs/IST_Logo.png" alt="graduation-hat-icon">
                         <p class="school_name">Instituto Superior Técnico</p>
                     </div>
                 </div>
-                <ul>
-                    <li><span>Bologna Degree in Computer Science and Engineering</span></li>
-                    <li><b>Enrolment:</b> <span>Sep 2023</span></li>
-                    <li><span>Freshman</span></li>
+                <ul class="school_info">
+                    <li class="school_info_bullet"><span>Bologna Degree in Computer Science and Engineering</span></li>
+                    <li class="school_info_bullet"><b>Enrolment:</b> <span>Sep 2023</span></li>
+                    <li class="school_info_bullet"><span>Freshman</span></li>
                 </ul>
             </div>
         </div>
     </div>
+    <script src="scratch.js"></script>
 </body>
 </html>

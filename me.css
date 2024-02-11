@@ -44,7 +44,7 @@
 
 @media (max-width: 600px) {
     body {
-        height: 120dvh;
+        height: 140dvh;
         overflow-y: scroll;
     }
     .content {
@@ -65,7 +65,7 @@
         width: 90dvw;
         height: 30dvh;
         border-radius: 16px;
-        margin-top: 3dvh;
+        margin-top: 10dvh;
     }
 
     .text {

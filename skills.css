@@ -28,19 +28,12 @@ body{
     margin: 0.5dvw;
 }
 
-.skill-0, .skill-1, .skill-2 {
+.skill-1, .skill-2 {
     padding-left: 1dvw;
     padding-top: 0.5dvh;
     padding-bottom: 0.5dvh;
     display: flex;
     flex-direction: column;
-}
-
-.skill-0 {
-    padding: 0;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
 }
 
 .skill_title {
@@ -125,4 +118,115 @@ body{
             radial-gradient(closest-side, var(--color2) 79%, transparent 80% 100%),
             conic-gradient(var(--color1) 18.18%, var(--color5) 0);
     margin-top: 8dvh;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow-y: scroll;
+        justify-content: center;
+    }
+    .content {
+        height: 165dvh;
+        width: 90dvw;
+        align-self: flex-start;
+
+        display: flex;
+        flex-direction: column;
+        /*grid-template-rows: 1fr 1fr 1fr 3fr;
+        grid-template-columns: 1fr;*/
+
+        margin-left: 0;
+        margin-top: 10dvh;
+    }
+
+    .skill {
+        color: var(--color5);
+        background-color: var(--color2);
+        border-radius: 16px;
+        margin: 0;
+    }
+
+    .skill-1, .skill-2, .skill-3 {
+        height: 25dvh;
+        padding-left: 1.5dvh;
+        padding-top: .5dvh;
+        padding-bottom: 1.5dvh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3dvh;
+    }
+
+    .skill_title {
+        font-size: 4dvh;
+        margin: 0;
+    }
+
+    .skill_number {
+        z-index: 2;
+        align-self: flex-start;
+        font-weight: 500;
+        font-size: 15dvh;
+        margin: 0;
+        margin-left: -0.5dvw;
+
+        padding: 0;
+    }
+
+    .lang {
+        display: flex;
+        align-items: center;
+    }
+
+    .flag {
+        width: 15dvw;
+        height: auto;
+    }
+
+    .lang_text {
+        font-size: x-large;
+        margin: 0;
+        margin-left: 2dvw;
+    }
+
+    .skill-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .skill-4 {
+        height: 70dvh;
+        padding-left: 1.5dvh;
+        padding-top: .5dvh;
+        padding-bottom: 1.5dvh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .chart {
+        height: 100%;
+        width: auto;
+    }
+
+    .progress-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 60dvw;
+        height: 60dvw;
+        border-radius: 50%;
+        background:
+                radial-gradient(closest-side, var(--color2) 79%, transparent 80% 100%),
+                conic-gradient(var(--color1) 18.18%, var(--color5) 0);
+        margin-top: 10dvh;
+    }
+
+    h2 {
+        font-size: xx-large;
+    }
 }
