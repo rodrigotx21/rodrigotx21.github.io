@@ -11,8 +11,8 @@ body{
 }
 
 .content {
-    height: 80dvh;
-    width: 60dvw;
+    height: 80vh;
+    width: 60vw;
     align-self: center;
 
     display: flex;
@@ -21,7 +21,7 @@ body{
     overflow-y: auto;
     scrollbar-width: large;
 
-    margin-left: 20dvw;
+    margin-left: 20vw;
 }
 
 .blur {
@@ -43,23 +43,23 @@ body{
 }
 
 .step {
-    height: 15dvh;
+    height: 15vh;
     width: 100%;
 
     border-radius: 32px;
     background-color: var(--color3);
     transition: 1s;
-    margin-bottom: 2dvh;
+    margin-bottom: 2vh;
     overflow: hidden;
     cursor: grab;
 }
 .step:hover {
-    height: 30dvh;
+    height: 30vh;
     transition: 400ms;
 }
 
 .school_header {
-    height: 15dvh;
+    height: 15vh;
     width: 100%;
     background-color: var(--color2);
     border-radius: 32px;
@@ -74,26 +74,26 @@ body{
     display: flex;
     width: 100%;
     align-items: center;
-    padding-left: 2dvw;
+    padding-left: 2vw;
 }
 
 .school_icon {
-    height: 3dvw;
+    height: 3vw;
     width: auto;
-    padding: 0.4dvw;
+    padding: 0.4vw;
     border-radius: 16px;
 }
 
 .school_name {
     color: var(--color5);
-    margin-left: 1dvw;
+    margin-left: 1vw;
     font-size: large;
     font-weight: bolder;
 }
 
 .school_info {
     color: var(--color1);
-    padding-left: 8dvw;
+    padding-left: 8vw;
 }
 b, span {
     color: var(--color5);
@@ -107,7 +107,7 @@ b, span {
 
     .content {
         height: fit-content;
-        width: 90dvw;
+        width: 90vw;
         align-self: flex-start;
 
         display: flex;
@@ -115,7 +115,7 @@ b, span {
         justify-content: center;
 
         margin-left: 0;
-        margin-top: 10dvh;
+        margin-top: 10vh;
     }
 
     .blur {
@@ -123,39 +123,39 @@ b, span {
     }
 
     .step {
-        height: 15dvh;
+        height: 15vh;
         width: 100%;
 
         border-radius: 32px;
         background-color: var(--color3);
         transition: 1s;
-        margin-bottom: 2dvh;
+        margin-bottom: 2vh;
         overflow: hidden;
         cursor: grab;
 
-        font-size: 3dvh;
+        font-size: 3vh;
     }
     .step:hover {
-        height: 43dvh;
+        height: 43vh;
         transition: 400ms;
     }
 
     .school_info {
-        margin-left: 10dvw;
+        margin-left: 10vw;
     }
 
     .school_icon {
-        height: 13dvw;
+        height: 13vw;
         width: auto;
-        padding: 0.4dvw;
+        padding: 0.4vw;
         border-radius: 16px;
-        margin-left: 2dvw;
+        margin-left: 2vw;
     }
 
     .school_name {
         color: var(--color5);
-        margin-left: 2dvw;
-        font-size: 3.4dvh;
+        margin-left: 2vw;
+        font-size: 3.4vh;
         font-weight: bolder;
     }
 }

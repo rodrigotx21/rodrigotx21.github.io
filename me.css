@@ -7,22 +7,22 @@
 }
 
 .content {
-    height: 100dvh;
+    height: 100vh;
     z-index: -1;
     display: flex;
-    margin-left: 10dvw;
+    margin-left: 10vw;
     align-items: center;
     justify-content: space-around;
-    padding-left: 1dvw;
-    padding-right: 1dvw;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .portrait {
     background-image: url("imgs/me.jpg");
     background-position: center;
     background-size: cover;
-    width: 25dvw;
-    height: 70dvh;
+    width: 25vw;
+    height: 70vh;
     border-radius: 16px;
 }
 
@@ -30,7 +30,7 @@
     padding: 20px;
     color: var(--color1);
     /*border: 2px #000000 solid;*/
-    width: 50dvw;
+    width: 50vw;
 }
 
 .paragraph {
@@ -44,7 +44,7 @@
 
 @media (max-width: 600px) {
     body {
-        height: 140dvh;
+        height: 140vh;
         overflow-y: scroll;
     }
     .content {
@@ -54,23 +54,23 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        padding-left: 1dvw;
-        padding-right: 1dvw;
+        padding-left: 1vw;
+        padding-right: 1vw;
     }
 
     .portrait {
         background-image: url("imgs/me.jpg");
         background-position: 50% 20%;
         background-size: cover;
-        width: 90dvw;
-        height: 30dvh;
+        width: 90vw;
+        height: 30vh;
         border-radius: 16px;
-        margin-top: 10dvh;
+        margin-top: 10vh;
     }
 
     .text {
         color: var(--color1);
-        width: 90dvw;
+        width: 90vw;
     }
 
     .paragraph {

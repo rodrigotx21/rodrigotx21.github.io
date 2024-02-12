@@ -7,8 +7,8 @@
 }
 
 body {
-    width: 100dvw;
-    height: 100dvh;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     font-family: 'Roboto', system-ui;
     background-color: var(--color5);
@@ -34,22 +34,22 @@ nav {
     position: fixed;
     z-index: 2;
     background-color: var(--color1);
-    width: 5dvw;
-    height: 80dvh;
-    margin-left: 1.5dvw;
-    margin-top: 10dvh;
+    width: 5vw;
+    height: 80vh;
+    margin-left: 1.5vw;
+    margin-top: 10vh;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding-left: 1.7dvw;
+    padding-left: 1.7vw;
     box-shadow: 5px 5px 5px #000000;
     transition: 500ms;
     overflow: hidden;
 }
 nav:hover {
-    width: 18dvw;
+    width: 18vw;
     transition: 200ms;
 }
 
@@ -61,29 +61,29 @@ h1 {
 .navicon_text {
     text-decoration: none;
     display: flex;
-    width: 15dvw;
+    width: 15vw;
     align-items: center;
 }
 
 .navicon {
-    width: 2.4dvw;
-    height: 2.4dvw;
-    padding: 0.4dvw;
+    width: 2.4vw;
+    height: 2.4vw;
+    padding: 0.4vw;
     border-radius: 16px;
     background-color: var(--color4);
     box-shadow: #000000 3px 3px 10px;
     transition: 200ms;
 }
 .navicon_text:hover > .navicon {
-    width: 2.6dvw;
-    height: 2.6dvw;
+    width: 2.6vw;
+    height: 2.6vw;
     background-color: var(--color5);
     transition: 200ms;
 }
 
 .navtext {
-    width: 10dvw;
-    margin-left: 1dvw;
+    width: 10vw;
+    margin-left: 1vw;
     opacity: 0;
     transition: 300ms;
     font-size: large;
@@ -109,7 +109,7 @@ nav:hover .navtext{
 
 .menu_list {
     padding: 0;
-    margin-top: 5dvh;
+    margin-top: 5vh;
 }
 
 .menu_bullet {
@@ -117,8 +117,8 @@ nav:hover .navtext{
 }
 
 .header {
-    height: 7dvh;
-    width: 100dvw;
+    height: 7vh;
+    width: 100vw;
 }
 
 @media (max-width: 600px) {
@@ -128,21 +128,21 @@ nav:hover .navtext{
 
     .nav_menu {
         position: fixed;
-        top: -93dvh;
+        top: -93vh;
         visibility: visible;
-        height: 100dvh;
-        width: 100dvw;
+        height: 100vh;
+        width: 100vw;
         background-color: var(--color1);
         transition: 1s;
     }
     .menu_active {
-        transform: translateY(93dvh);
+        transform: translateY(93vh);
         transition: 1s;
     }
 
     .nav_menu_title {
-        margin-top: 3dvh;
-        font-size: 12dvh;
+        margin-top: 3vh;
+        font-size: 12vh;
         color: var(--color5);
     }
 
@@ -154,10 +154,10 @@ nav:hover .navtext{
         color: var(--color5);
         border: 2px var(--color5) solid;
         border-radius: 50px;
-        height: 8dvh;
+        height: 8vh;
         width: 55vw;
-        font-size: 4dvh;
-        margin: 2dvh;
+        font-size: 4vh;
+        margin: 2vh;
         transition: .5s;
     }
     .link:hover, .active {
@@ -167,8 +167,8 @@ nav:hover .navtext{
     }
 
     .header {
-        height: 7dvh;
-        width: 100dvw;
+        height: 7vh;
+        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -178,7 +178,7 @@ nav:hover .navtext{
         -webkit-tap-highlight-color: transparent;
         cursor:pointer;
         border:none;
-        height: 7dvh;
+        height: 7vh;
         width: auto;
         padding: 0;
         transition-delay: 1s;
